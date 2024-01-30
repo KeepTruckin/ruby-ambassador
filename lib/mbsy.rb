@@ -14,7 +14,7 @@ require 'mbsy/util/single_sign_on'
 
 module Mbsy
   class << self
-    BASE_URI = "https://getambassador.com/api/v2"
+    BASE_URI = "https://getambassador.com/api/v3"
 
     attr_accessor :api_key, :user_name
 
